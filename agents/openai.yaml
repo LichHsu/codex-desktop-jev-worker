@@ -1,0 +1,6 @@
+interface:
+  display_name: "Desktop Jev Worker"
+  short_description: "Bounded A/B workflow with optional Jev review triage"
+  default_prompt: "Use $desktop-jev-worker for an authorized Desktop A -> Desktop B -> Jev-assisted A review workflow."
+policy:
+  allow_implicit_invocation: true
